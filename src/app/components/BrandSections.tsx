@@ -61,7 +61,10 @@ export default function BrandSections() {
                     <h3>{tariff.name}</h3>
                     <span className={styles.tariffSeats}>{tariff.seats}</span>
                   </div>
-                  <p className={styles.tariffPrice}>{tariff.price}</p>
+                  <div className={styles.tariffPriceBlock}>
+                    <p className={styles.tariffPriceWas}>{tariff.priceWas}</p>
+                    <p className={styles.tariffPrice}>{tariff.price}</p>
+                  </div>
                   <ul>
                     {tariff.features.map((f) => (
                       <li key={f}>{f}</li>

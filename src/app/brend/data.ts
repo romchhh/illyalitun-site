@@ -117,8 +117,9 @@ export const BRAND_COURSE = {
     items: [
       {
         name: 'Груповий',
-        seats: '20 місць',
-        price: '23.990 грн',
+        seats: '18 з 20 місць',
+        priceWas: '23.990 грн',
+        price: '20.990 грн',
         featured: false,
         features: [
           'Програма з 8 модулів та 50 уроків',
@@ -136,8 +137,9 @@ export const BRAND_COURSE = {
       },
       {
         name: 'Персональний',
-        seats: '5 місць',
-        price: '64.990 грн',
+        seats: '2 місця',
+        priceWas: '64.990 грн',
+        price: '59.990 грн',
         featured: true,
         features: [
           'Все що є в тарифі «Груповий» і додатково:',
